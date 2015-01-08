@@ -496,6 +496,11 @@ header h2 {
 #main-content img {
   max-width: 100%;
 }
+aside img{
+    width: 50%;
+    height: 100px;
+    float: left;
+}
 
 aside#sidebar {
   float: right;
@@ -574,6 +579,7 @@ pre code {
 
 ul, ol, dl {
   margin-bottom: 20px;
+    font-size: 50px;
 }
 
 
@@ -739,6 +745,7 @@ ol {
 dl dd {
   font-style: italic;
   font-weight: 100;
+font-size: 35px;
 }
 
 footer {
@@ -879,3 +886,7 @@ footer a:hover {
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
 
+
+.dtl2 {
+    font-size: 35px;
+}
