@@ -1357,7 +1357,7 @@ z-index:1;
 }
 
 .bold {
-    font-weight: bold;
+    font-weight: bold !important;
 }
 
 .ipagination {
@@ -1456,7 +1456,7 @@ z-index:1;
 }
 
 .deepen-red {
-    color: rgb(208, 0, 13);
+    color: rgb(208, 0, 13) !important;
 }
 
 .clear-both {

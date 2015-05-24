@@ -1,0 +1,105 @@
+
+.rs .attention-flow ol{
+    
+}
+
+.rs .attention-flow {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(129, 129, 129);
+}
+.rs .attention-flow ol{
+    padding-left: 20px;
+}
+.rs .attention-flow ol li{
+    list-style-type:decimal;
+    list-style-position:inside;
+}
+.rs .attention-flow ol li:before{
+ 
+}
+
+.attention-flow .text {
+    float: left;
+}
+
+.rs .share {
+    font-size: 1.3em;
+    color: white;
+    background-color: rgb(189, 189, 189);
+/*    padding: 0px 15px;*/
+    width: 80px;
+    padding-left: 5px;
+    display: inline-block;
+    border-top-right-radius: 30px;
+}
+
+.rs  .sina{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/sina.jpg);
+}
+.rs .qqzone{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/qzone.jpg);
+}
+.rs .rr{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/rr.jpg);
+}
+.rs .sina2{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/sina2.jpg);
+}
+.rs .wx{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/wx.jpg);
+}
+.rs .qq{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/qq.jpg);
+}
+
+.rs .qqwb{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/qqwb.jpg);
+}
+
+.rs .xx{
+    height: 26px;
+    width: 26px;
+    background-image: url(../images/xx.jpg);
+}
+
+.rs     .sina{
+    height: 26px;
+    width: 26px;
+    background-position: 0px 26px;
+}
+
+.rs .block {
+    
+}
+
+.rs .block .text a {
+    font-size: 1.3em !important;
+    color: rgb(127, 127, 127);
+}
+
+.rs {
+    margin: 60px 0px;
+}
+
+.rs .blocks {
+    
+}
+
+.rs .informations {
+    margin-bottom: 30px;
+}
