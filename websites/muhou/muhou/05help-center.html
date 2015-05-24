@@ -153,7 +153,7 @@
                 <div class="comment">
                     <p>说两句</p>
                     <form>
-                        <textarea></textarea>
+                        <script id="container" name="content" type="text/plain"></script>
                         <br>
                         <button class="btn bg-deepen-red right" type="submit">提交评论</button>
                     </form>
@@ -238,6 +238,17 @@
         <div class="w"><a href="">关于我们</a><a href="">帮助中心</a><a href="">联系方式</a><a href="">法律条款</a><a href="">举报投诉</a><a href="">黑名单</a>
         </div>
     </div>
+    
+    
+        <!-- 加载编辑器的容器 -->    
+    <!-- 配置文件 -->
+    <script type="text/javascript" src="UEEditor/ueditor.config.js"></script>
+    <!-- 编辑器源码文件 -->
+    <script type="text/javascript" src="UEEditor/ueditor.all.js"></script>
+    <!-- 实例化编辑器 -->
+    <script type="text/javascript">
+        var ue = UE.getEditor('container');
+    </script>
 </body>
 
 </html>
