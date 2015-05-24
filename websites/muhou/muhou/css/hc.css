@@ -1,0 +1,136 @@
+
+.left .block {
+    margin-left: 20%;
+    color: white;
+    
+}
+
+.expert-icon {
+    margin-left: 20px;
+    background-color: red;
+    color: yellow;
+}
+
+.qrcode img{
+    width: 80%;
+}
+
+.qrcode-text {
+    font-size: 1.5em;
+    padding-left: 4%;
+}
+
+img.sharepoint {
+    margin-left: 43px;
+   height: 33px;
+    width: 24px;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.text .title-block .title {
+    font-size: 1.5em;
+}
+
+.aside-text span{
+    padding: 0px 5px;
+}
+
+.text {
+    width: 100%;
+}
+
+.aside-text {
+    
+}
+
+.text .author-block .title {
+    font-size: 1.3em;
+}
+
+
+
+.author-block .time-right {
+    float: right;
+    padding-top: 5px;
+}
+
+.author-block .author {
+    float: left;
+    width: 88.3%;
+}
+
+
+
+.text .content img{
+    height: 100%;
+    width: 100%;
+}
+
+.comment {
+    margin: 10px 0px;
+}
+.comment form{
+    width: 60%;
+}
+
+.comment textarea{
+    width: 100%;
+    height: 200px;
+    border: 1px solid rgb(160, 160, 160);
+}
+
+.comments-header {
+    border-bottom: 2px solid rgb(170, 28, 27);
+}
+
+.comments-header a{
+    color: rgb(51, 51, 51);
+}
+
+.comments {
+    font-size: 1.2em;
+}
+
+.order {
+    padding-right: 5px;
+}
+
+.comments .content .comment .user {
+    float: left;
+    width: 85.9%;
+}
+
+.day {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+}
+.day img{
+    padding-top: -20px;
+    padding: 10px;
+    width: 91%;
+}
+
+.date {
+    color: white;
+    text-align: center;
+}
+
+.date .week {
+    font-size: 1.5em;
+}
+
+.year-month {
+    font-size: 1.5em;
+}
+
+.views {
+    font-size: 1.8em;
+}
+
+.text .content {
+    text-align: left;
+}
