@@ -1,0 +1,96 @@
+
+.login-text {
+    padding-top: 100px;
+    text-align: left;
+}
+
+.login-text .text-one {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.login-text .text-two {
+    font-weight: bold;
+    font-size: 4.5em;
+}
+
+.login-text .text-three {
+    text-align: right;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(127, 127, 127);
+    padding-right: 3.5%;
+}
+
+.login-block {
+/*    width: 55%;*/
+}
+
+.login-block .login-frame {
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 1px solid rgb(208, 208, 208);
+}
+
+.login-method .c {
+    font-size: 2em;
+    background-color: rgb(171, 29, 28);
+    color: white;
+    
+}
+.login-method .c:first-child{
+    border-top-left-radius: 10px;
+}
+.login-method .c:last-child{
+    border-top-right-radius: 10px;
+}
+
+.login-method .c.bordered {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.forget > span{
+    padding: 0px 5px;
+}
+.forget .bordered{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.login-way .c {
+    padding: 10px;
+    font-size: 2em;
+    color: rgb(104, 104, 104);
+}
+
+.login-frame .hr {
+    height: 1px;
+    clear: both;
+    width: 90%;
+    border-bottom: solid 1px rgb(208 , 208, 208);
+}
+
+.login-frame .form .vc {
+    height: 40px;
+    width: 80px;
+    float: left;
+}
+
+.login-frame .form {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.login-frame .forget {
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    color: rgb(104, 104, 104);
+}
+
+
+.login {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}

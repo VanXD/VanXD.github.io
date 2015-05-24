@@ -1447,3 +1447,23 @@ z-index:1;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
 }
+
+.hero-blank {
+}
+
+.fresh-red {
+    color: rgb(255, 0 , 16);
+}
+
+.deepen-red {
+    color: rgb(208, 0, 13);
+}
+
+.clear-both {
+    clear: both;
+}
+
+.bg-deepen-red {
+    background-color: rgb(170, 28, 27);
+    color: white;
+}
