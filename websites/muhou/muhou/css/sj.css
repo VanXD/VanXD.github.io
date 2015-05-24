@@ -1,0 +1,175 @@
+.jumbotron > img {
+    width: 100%;
+}
+
+.brand {
+    background-image: url(../images/wyh.jpg);
+    height: 411px;
+}
+
+.enterprise-title .ibrand{
+    font-size: 1.2em;
+}
+
+.brand .block {
+    z-index: 1;
+    background-color: rgb(208, 0, 13);
+    height: 50px;
+    color: white;
+    font-size: 2.3em;
+    text-align: center;
+    margin-top: 350px;
+}
+
+.brand .text {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    z-index: 1;
+}
+
+.brand .brand-right {
+    margin-left: 10%;
+}
+.right{
+    float: right;
+}
+
+.brand .brand-left {
+    margin-left: 20%;
+}
+
+.expert {
+    padding: 5px 0px;
+}
+
+.expert .avatar {
+    float: left;
+    padding-right: 10px;
+    height: 70px;
+}
+
+.expert .avatar img {
+    height: 100%;
+    width: 100%;
+}
+
+.expert-name {
+    font-weight: bold;
+}
+
+.notice {
+    background-color: rgb(208, 0, 13);
+    color: white;
+/*    font-size: 20px;*/
+    font-size: 1.7em;
+    text-align: center;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-box-shadow: 10px 10px 5px #888888;
+    box-shadow: 0px 5px 15px #888888;
+}
+
+.notice-block {
+    background-color: rgb(238, 238, 238);
+}
+
+.notice-block .notice-text {
+    position: inherit !important;
+    font-size: 1.4em !important;
+}
+.notice-text a{
+    color: rgb(127, 127, 127);
+}
+
+
+
+.images-show img{
+    padding: 5px;
+}
+
+.band-m {
+    color: rgb(159,159,160);
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.band-s {
+    color: rgb(159,159,160);
+/*    font-size: 13px;*/
+    font-size: 1.1em;
+}
+
+.order {
+/*    font-size: 16px;*/
+    font-size: 1.1em;
+    font-weight: bold;
+    background-color: rgb(243, 243, 243);    
+    padding: 5px 11px;
+    color: rgb(127, 127, 127);
+}
+
+
+.default {
+    color: rgb(170, 30, 29);
+}
+
+.sold {
+    font-weight: normal;
+}
+
+.thin {
+    font-weight: normal;
+}
+
+.frame {
+    border: 1px solid black;
+}
+
+.order.special {
+    margin-left: -20px;
+}
+
+.activity .normal-width {
+    float: left;
+    width: 11%;
+    margin-right: 1%;
+}
+
+.activity .wide-width {
+    float: left;
+    margin-right: 1%;
+    width: 34%;
+}
+
+.activity {
+    word-wrap: break-word;
+    font-weight: bold;
+}
+
+.activity  > .title{
+/*    font-size: 16px;*/
+    font-size: 1.3em;
+}
+
+.activity .address {
+    color: rgb(0, 72, 255);
+}
+
+.time-width {
+    float: left;
+    width: 7%;
+    margin-right: 1%;
+}
+
+.activity .block {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.enterprise .enterprise-title {
+    background-color: rgb(209, 0, 12);
+    color: white;
+    padding: 5px;
+    font-size: 1.1em;
+}

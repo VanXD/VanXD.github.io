@@ -1,0 +1,527 @@
+@import url("css.css");
+@import url("top.css");
+#gsheader {
+    width: 100%;
+    height: 578px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: #191919;
+}
+
+#gsheadbg {
+    width: 1920px;
+    height: 578px;
+    z-index: 1;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #191919;
+}
+
+#indexft {
+    width: 1920px;
+    height: 578px;
+    background: #191919;
+}
+
+.k {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.k1 {
+    width: 204px;
+    height: 121px;
+    float: left;
+    background: #282828;
+    text-align: left;
+}
+
+.k2 {
+    width: 204px;
+    height: 121px;
+    float: left;
+    background: #282828;
+    margin-left: 11px;
+    text-align: left;
+}
+
+.k3 {
+    padding-left: 17px;
+    padding-top: 20px;
+    width: 187px;
+    height: 30px;
+    text-align: left;
+}
+
+.k3 a,
+.k3 a:link,
+.k3 a:active,
+.k3 a:visited,
+.k3 a:hover {
+    color: #ffffff;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.k4 {
+    padding-left: 17px;
+    width: 170px;
+    height: 54px;
+    text-align: left;
+}
+
+.k4 a,
+.k4 a:link,
+.k4 a:active,
+.k4 a:visited,
+.k4 a:hover {
+    color: #808080;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.mhmap {
+    width: 100%;
+    height: 646px;
+    text-align: center;
+    overflow: hidden;
+    background: #2a2a2a;
+}
+
+mhmapa {
+    width: 1280px;
+    height: 646px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.mhmap1 {
+    width: 525px;
+    height: 70px;
+    text-align: left;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+}
+
+.mhmap5 {
+    width: 100px;
+    height: 70px;
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    line-height: 70px;
+    text-align: center;
+}
+
+.mhmap6 {
+    width: 425px;
+    height: 70px;
+    float: left;
+    font-size: 14px;
+    color: #fff;
+    line-height: 70px;
+    text-align: left;
+}
+
+.mhmap6 span {
+    color: #d94134;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.mhmap2 {
+    width: 300px;
+    height: 80px;
+    text-align: right;
+    top: 0px;
+    right: 0px;
+    padding-right: 25px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    color: #fff;
+    padding-top: 15px;
+}
+
+.mhmap2 span {
+    color: #d94134;
+}
+
+.mhmap2 a,
+.mhmap2 a:link,
+.mhmap2 a:active,
+.mhmap2 a:visited,
+.mhmap2 a:hover {
+    color: #989898;
+    font-size: 12px;
+}
+
+.mhmap3 {
+    width: 510px;
+    height: 45px;
+    text-align: left;
+    bottom: 0px;
+    left: 0px;
+    padding-left: 10px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+    margin-bottom: 12px;
+    font-size: 16px;
+    color: #d94134;
+    line-height: 30px;
+}
+
+.mhmap3 a,
+.mhmap3 a:link,
+.mhmap3 a:active,
+.mhmap3 a:visited,
+.mhmap3 a:hover {
+    font-size: 16px;
+    color: #d94134;
+    line-height: 30px;
+}
+
+.mhmap4 {
+    width: 106px;
+    height: 106px;
+    text-align: left;
+    bottom: 0px;
+    right: 0px;
+    margin: 25px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 3;
+}
+
+.wbwz {
+    height: 428px;
+}
+
+.wbwz1 {
+    font-size: 45px;
+    line-height: 92px;
+    padding-top: 133px;
+    width: 1280px;
+    height: 92px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+}
+
+.wbwz2 {
+    margin-left: 290px;
+    width: 580px;
+    height: 140px;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+    color: #808080;
+    font-size: 16px;
+    line-height: 30px;
+    clear: left;
+}
+
+.wbwz3 {
+    width: 106px;
+    height: 106px;
+    float: left;
+    overflow: hidden;
+    text-align: left;
+}
+
+.wbtp {
+    width: 1280px;
+    height: 327px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#imageFlow {
+    position: absolute;
+    width: 1280px;
+    height: 300px;
+    left: 0;
+    top: 0;
+}
+
+#imageFlow .diapo {
+    position: absolute;
+    left: -1000px;
+    cursor: pointer;
+    -ms-interpolation-mode: nearest-neighbor;
+}
+
+#imageFlow .link {
+    border: dotted #fff 1px;
+    margin-left: -1px;
+    margin-bottom: -1px;
+}
+
+#imageFlow .bank {
+    visibility: hidden;
+}
+
+#imageFlow .top {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+}
+
+#imageFlow .text {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 16%;
+    text-align: center;
+    color: #FFF;
+    font-family: verdana, arial, Helvetica, sans-serif;
+    z-index: 1000;
+}
+
+#imageFlow .title {
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#imageFlow .legend {
+    font-size: 0.8em;
+}
+
+#imageFlow .scrollbar {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    width: 80%;
+    height: 16px;
+    z-index: 1000;
+}
+
+#imageFlow .track {
+    position: absolute;
+    left: 1%;
+    width: 98%;
+    height: 16px;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+
+#imageFlow .arrow-left {
+    position: absolute;
+    left: 0px;
+}
+
+#imageFlow .arrow-right {
+    position: absolute;
+    right: 0px;
+}
+
+#imageFlow .bar {
+    position: absolute;
+    height: 16px;
+    left: 25px;
+}
+
+.tgggw {
+    width: 100%;
+    height: 765px;
+    text-align: center;
+    overflow: hidden;
+    background: #2a2a2a;
+}
+
+.tgggw1 {
+    width: 1280px;
+    height: 765px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.tgggw2 {
+    width: 1280px;
+    height: 383px;
+    overflow: hidden;
+}
+
+.tgggw3 {
+    width: 1280px;
+    height: 382px;
+    overflow: hidden;
+}
+
+.tgggw4 {
+    width: 1280px;
+    height: 106px;
+    text-align: center;
+    top: 330px;
+    left: 0px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+.gxgg {
+    width: 100%;
+    height: 542px;
+    text-align: center;
+    overflow: hidden;
+    background: #000000;
+}
+
+#gx {
+    width: 1280px;
+    height: 542px;
+    margin: 0 auto;
+    background: #000000;
+}
+
+.gxfl {
+    width: 1287px;
+    height: 215px;
+    padding-top: 25px;
+}
+/*菜单class*/
+
+.Menubox {
+    width: 70px;
+    background: url(/images/gxbg.png) no-repeat left top;
+    height: 194px;
+    float: left;
+    display: block;
+}
+
+.Menubox li {
+    width: 18px;
+    display: block;
+    float: left;
+    line-height: 36px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+    padding: 30px 32px 0 20px;
+}
+
+.Menubox li.hover {
+    color: #d0000d;
+}
+
+.Menubox_on {
+    color: #d0000d;
+}
+
+.Menubox a,
+.Menubox a:link,
+.Menubox a:active,
+.Menubox a:visited,
+.Menubox a:hover {
+    line-height: 36px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.Menubox_on a,
+.Menubox_on a:link,
+.Menubox_on a:active,
+.Menubox_on a:visited,
+.Menubox_on a:hover,
+.Menubox li.hover a,
+.Menubox li.hover a:link,
+.Menubox li.hover a:active,
+.Menubox li.hover a:visited,
+.Menubox li.hover a:hover {
+    color: #d0000d;
+}
+
+.Contentbox {
+    width: 447px;
+    background: url(/images/gxbg1.png) no-repeat left top;
+    height: 194px;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.gx_zfl {
+    width: 420px;
+    height: 70px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+    line-height: 70px;
+    color: #ffffff;
+    ;
+    font-size: 16px;
+}
+
+.gx_zfl span {
+    padding: 0 6px;
+}
+
+.gx_zfl a,
+.gx_zfl a:link,
+.gx_zfl a:active,
+.gx_zfl a:visited,
+.gx_zfl a:hover {
+    line-height: 70px;
+    color: #ffffff;
+    ;
+    font-size: 16px;
+}
+
+.wj_fl {
+    width: 330px;
+    height: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    clear: both;
+}
+
+.wj_fl li {
+    width: 110px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    line-height: 40px;
+    color: #ff0000;
+    ;
+    font-size: 16px;
+}
+
+.wj_fl span {
+    padding-left: 10px;
+    color: #808080;
+}
+
+.wxy {
+    height: 655px;
+    background: url(/images/kt.gif) no-repeat left top;
+}
+
+.wxy1 {
+    padding-top: 80px;
+    padding-left: 120px;
+    width: 1000px;
+    float: left;
+    text-align: left;
+    line-height: 34px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.wxy2 {
+    padding-top: 40px;
+    width: 106px;
+    float: left;
+    text-align: left;
+}
