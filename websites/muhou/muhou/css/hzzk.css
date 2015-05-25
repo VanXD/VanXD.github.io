@@ -1,0 +1,202 @@
+/****/
+
+#R {
+	position: relative;
+	top: 35px;
+}
+
+#gz {
+	position: relative;
+	left: 100px;
+}
+
+#guanz {
+	position: relative;
+	right: 130px;
+	top: 20px;
+	width: 50px;
+	height: 50px;
+	border-radius: 99px;
+	background: url("../images/2.gif") no-repeat;
+}
+
+#fk {
+	width: 260px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#fk ul li {
+	background: rgb(204, 115, 115);
+	margin: 2px;
+	float: left;
+}
+
+.left {
+	text-align: left;
+	width: 84px;
+	float: left;
+	margin: 1px;
+	margin-top: 4px;
+}
+
+.right {
+	width: 84px;
+	margin: 1px;
+	margin-top: 4px;
+}
+
+.middle {
+	text-align: center;
+	width: 68px;
+	float: left;
+	margin-left: 1px;
+	margin: 2px;
+}
+
+.f {
+	width: 244px;
+}
+
+.t {
+	position: relative;
+	top: 1px;
+	width: 120px;
+	height: 84px;
+}
+
+.l {
+	width: 84px;
+	height: 112px;
+}
+
+.m {
+	width: 68px;
+	height: 44px;
+}
+
+.r {
+	width: 84px;
+	height: 112px;
+}
+
+.h {
+	margin: 0 auto;
+	width: 250px;
+	height: 28px;
+	background: rgb(226, 226, 226);
+	border-radius: 2px;
+	float: left;
+}
+
+.h a {
+	display: block;
+	text-align: center;
+	font-size: 16px;
+}
+
+#time {
+	text-align: right;
+	float: right;
+	display: inline-block;
+}
+
+.breadcrumb {
+	font-size: 16px;
+}
+
+#atitle {
+	font-size: 16px;
+	font-weight: 700;
+}
+
+.ex li {
+	float: left;
+	margin: 2px;
+}
+
+.ap {
+	font-weight: 700;
+	height: 80px;
+}
+
+#answer {
+	border: 1px solid #000;
+}
+
+#submit {
+	width: 78px;
+	height: 22px;
+	margin-left: 480px;
+	border-radius: 4px;
+	font-size: 16px;
+	background: rgb(132, 22, 22);
+	color: #fff;
+}
+
+#exp li {
+	background: #CCCCCC;
+	border-radius: 4px;
+	margin-right: 3px;
+	margin-bottom: 2px;
+	float: left;
+}
+
+.bq {
+	width: 158px;
+	height: 136px;
+	float: left;
+}
+
+.gzb {
+	width: 158px;
+	height: 28px;
+}
+
+.gzb a {
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	line-height: 28px;
+	height: 28px;
+	font-size: 1.2em;
+}
+
+.mar {
+	margin-bottom: 100px;
+}
+
+.exps {
+	padding: 6px;
+}
+
+.et {
+	width: 144px;
+	height: 36px;
+}
+
+.avatars {
+	width: 36px;
+	height: 34px;
+	float: left;
+}
+
+.avatars img {
+	width: 100%;
+	height: 100%;
+}
+
+.ef {
+	width: 144px;
+	height: 88px;
+	background: rgb(231, 31, 25);
+	border-radius: 4px;
+}
+
+.ef p {
+	font-weight: bold;
+	color: #fff;
+	padding: 6px 15px 6px 15px;
+}
+/****/

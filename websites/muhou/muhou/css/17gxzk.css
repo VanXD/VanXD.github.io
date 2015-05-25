@@ -1,0 +1,32 @@
+#sp {
+	display: block;
+	float: left;
+}
+
+.bt {
+	color: #333;
+	font-size: 1em;
+}
+
+.rr {
+	float: right;
+}
+
+.pl {
+	font-size: 1.2em;
+}
+.sort{
+	float: right;
+}
+.plk{
+	border-bottom: 2px solid rgb(132, 22, 22);
+}
+.cl{
+	color: blue;
+}
+.nrk{
+	border-bottom: 1px solid #ccc;
+}
+.aap{
+	font-weight: 700;
+}
