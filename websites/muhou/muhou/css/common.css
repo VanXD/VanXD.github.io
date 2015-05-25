@@ -1525,6 +1525,9 @@ z-index:1;
 .left-to-div .text span{
     padding-right: 20px;
 }
+.left-to-div .right-side span{
+    margin: 10px;
+}
 
 
 
@@ -1552,6 +1555,14 @@ input[type=checkbox] {
 }
 .left-to-div .row .right-side {
     display: inline-block;
+    margin-bottom: 10px;
+}
+
+.left-to-div .row .right-side div{
+    margin: 10px 0px;
+}
+.left-to-div .row .right-side div:first-child{
+    margin: 3px 0px;
 }
 
 .left-to-div .row .right-side span{
@@ -1602,4 +1613,8 @@ input[type=text] {
 
 .btn-medium {
     width: 100px;
+}
+
+.sub-div-padding div{
+    padding: 10px 0px;
 }
