@@ -1505,3 +1505,101 @@ z-index:1;
 .black-border {
     border-color: rgb(51, 51, 51);
 }
+
+.text-medium {
+    font-size: 1.3em;
+}
+
+.text-small {
+    font-size: 1.3em;
+}
+
+.train-inline {
+    display: inline;
+    border-top-right-radius: 30px;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.left-to-div .text span{
+    padding-right: 20px;
+}
+
+
+
+.white {
+    color: white;
+}
+
+input[type=checkbox] {
+    height: 18px;
+    width: 18px;    
+}
+
+.left-to-div .content {
+    padding-left: 10px;
+}
+
+.left-to-div {
+    margin: 10px 0px;
+}
+
+
+.left-to-div .row .left-side { 
+    display: inline-block;
+    float: left;
+}
+.left-to-div .row .right-side {
+    display: inline-block;
+}
+
+.left-to-div .row .right-side span{
+    margin-left: 10px;
+}
+
+.bg-gray {
+    background-color:  rgb(159,159,160);
+    color: white;
+}
+
+.left-half-circle {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.short {
+    width: 50px;
+}
+
+input[type=text] {
+    border: 1px solid rgb(159,159,160);
+    padding:0px 10px;
+    font-weight: bold;
+}
+
+.quad-usual-radius {
+    border-radius: 5px;
+}
+
+.quad-bordered {
+    border:  solid 1px rgb(159,159,160);
+}
+
+
+
+.left {
+    float: left;
+}
+
+.button {
+    margin: 10px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.btn-medium {
+    width: 100px;
+}
