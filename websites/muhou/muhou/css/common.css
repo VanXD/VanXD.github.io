@@ -1525,6 +1525,7 @@ z-index:1;
 .left-to-div .text span{
     padding-right: 20px;
 }
+
 .left-to-div .right-side span{
     margin: 10px;
 }
@@ -1621,4 +1622,102 @@ input[type=text] {
 
 .ueeditor {
     margin: 20px 0px;
+}
+
+.red-block {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 10px 0px 30px 0px;
+}
+
+.text-shot {
+    font-size: 1.8em;
+}
+
+.accordion-dropdown > ul {
+    height: 0px;
+    display: none;
+}
+.accordion-dropdown > ul > li{
+    padding: 5px 0px;
+}
+
+
+.accordion-dropdown {
+    margin: 30px 0px;
+}
+
+.left-to-div .right-content span{
+    padding-right: 4%;
+}
+
+
+
+.quad-hard-radius {
+    border-radius: 14px;
+}
+
+.bg-fresh-red {
+    background-color:  rgb(255, 0 , 16);
+    color: white;
+}
+
+.inline-elements {
+        padding-top: 10px;
+}
+
+.inline-fix-span {    
+    position:relative; 
+    top: 5px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0px;
+}
+
+.inline-inner-margin a{
+    margin: 0px 5px;
+}
+
+.long {
+    width: 55%;
+}
+
+.expert-icon {
+    margin-left: 20px;
+    background-color: red;
+    color: yellow;
+}
+
+.img-example-small-right {
+    padding: 0px;
+    padding-right: 5px;
+    border-radius: 10px;
+}
+.img-example-small-right div,
+.img-example-small-left div{
+    border-radius: 10px;
+    height:80px;
+    width:100%;
+    background-color:green;
+}
+
+.img-example-small-left {
+    padding: 0px;
+    padding-left: 5px;
+    border-radius: 10px;
+}
+
+.text-ismall {
+    font-size: 1.2em;
+}
+
+.input-text-medium {
+    width: 15%;
+}
+
+label {
+    font-weight: normal;
 }

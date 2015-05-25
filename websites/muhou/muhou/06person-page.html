@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!--    link-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/hc.css">
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.SuperSlide.js"></script>
+    <script src="js/common.js"></script>
+    <!--    link end-->
+</head>
+
+<body>
+    <div class="header">
+        <div class="w">
+            <div class="logo">
+                <a href=""><img src="images/logo.gif" alt="logo" />
+                </a>
+            </div>
+            <ul class="nav">
+                <li class="navItem">
+                    <a href="" class="sub">首页</a>
+                </li>
+                <li class="navItem">
+                    <a href="" class="sub">商机</a>
+                    <ul class="menu">
+                        <li><a href="">招标信息</a>
+                        </li>
+                        <li><a href="">合作商机</a>
+                        </li>
+                        <li><a href="">发布信息</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem">
+                    <a href="" class="sub">知道</a>
+                    <ul class="menu">
+                        <li><a href="">精彩回答</a>
+                        </li>
+                        <li><a href="">难题榜</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navItem"><a href="" class="sub">共享</a>
+                </li>
+                <li class="navItem"><a href="" class="sub">专家</a>
+                </li>
+                <li class="navItem"><a href="" class="sub">团购</a>
+                </li>
+                <li class="navItem"><a href="" class="sub">微学院</a>
+                </li>
+            </ul>
+            <!-- nav end -->
+            <div class="tools fr">
+                <div class="toolsLink">
+                    <a href="javascript:;" onclick="showlogin();">登录</a>
+                    <a href="">注册</a>
+                    <a class='bdsharebuttonbox bds_more' data-cmd='more' href=''>分享</a>
+                    <script>
+                        with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+                    </script>
+                    <a href="javascript:;">关注</a>
+                </div>
+                <!-- toolsLink end -->
+                <form action="" class="search">
+                    <div class="search-select rel">
+                        <h2>全部</h2>
+                        <div class="select-cont">
+                            <a href="">城市</a>
+                            <a href="">商机</a>
+                            <a href="">互助</a>
+                            <a href="">共享</a>
+                            <a href="">专家</a>
+                            <a href="">团购</a>
+                            <a href="">产品</a>
+                            <a href="">厂家</a>
+                            <a href="">课程</a>
+                        </div>
+                    </div>
+                    <input class="search-key" name="keyword" type="text" placeholder="搜索企业、商机、产品">
+                    <input class="search-bnt" type="submit" value="">
+                </form>
+                <!-- search end -->
+            </div>
+            <!-- tools end -->
+        </div>
+    </div>
+
+    <div class="left col-lg-2 col-md-2 col-sm-2 col-xs-2 clear-padding">
+        <div class="block col-lg-10 col-md-3 col-sm-3 col-xs-3">
+            <div class="qrcode">
+                <img src="images/zj.jpg">
+            </div>
+            <div class="">
+                <span class="deepen-red qrcode-text">关注</span>
+                <span class="qrcode-text gray">999999</span>
+            </div>
+            <div class="">
+                <span class="deepen-red qrcode-text">身 企</span>
+                <span class="qrcode-text gray">群 专 师</span>
+            </div>
+            <div class="accordion-dropdown" data-toggle="dropdown">
+                <span class="h3 train-inline bg-deepen-red">个人首页</span><span class="dropdown-triangle deepen-red text-medium">▼</span>
+                <ul>
+                    <li><a class="text-medium white" href="">基础资料</a>
+                    </li>
+                    <li><a class="text-medium white" href="">身份验证</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="dropdown">
+                <span class="h3 train-inline bg-deepen-red">信息发布</span><span class="dropdown-triangle deepen-red text-medium">▼</span>
+                <ul>
+                    <li><a class="text-medium white" href="">商机</a><span class="number">999999</span>
+                    </li>
+                    <li><a class="text-medium white" href="">互助</a><span class="number">999999</span>
+                    </li>
+                    <li><a class="text-medium white" href="">共享</a><span class="number">999999</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="">
+                <p class="h3 ">设备发布</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="dropdown">
+                <span class="h3 train-inline bg-deepen-red">我的设备</span><span class="dropdown-triangle deepen-red text-medium">▼</span>
+                <ul>
+                    <li><a class="text-medium white" href="">我的客服</a><span class="number">999999</span>
+                    </li>
+                    <li><a class="text-medium white" href="">设备库名称</a><span class="number">999999</span>
+                    </li>
+                    <li><a class="text-medium white" href="">设备库名称</a><span class="number">999999</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="">
+                <p class="h3">我的订单</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="dropdown">
+                <span class="h3 train-inline bg-deepen-red">我的学院</span><span class="dropdown-triangle deepen-red text-medium">▼</span>
+                <ul>
+                    <li><a class="text-medium white" href="">课程申报</a><span class="number">999999</span>
+                    </li>
+                    <li><a class="text-medium white" href="">讲师资料</a><span class="number">999999</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="">
+                <p class="h3">收藏关注</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="">
+                <p class="h3">帐户记录</p>
+                <ul>
+                </ul>
+            </div>
+            <div class="accordion-dropdown" data-toggle="">
+                <span class="h3">我的信息</span><span class="text-small deepen-red">99</span>
+                <ul>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="center col-lg-8 col-md-8 col-sm-8 col-xs-8 clear-padding">
+        <div class="inner">
+            <div class="block bg-white">
+                <div class="left-to-div">
+                    <div class="text">
+                        <span class="text-medium bold bg-gray train-inline">使用说明</span>
+                    </div>
+                    <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <div class="">
+                            <span class="deepen-red text-medium">用户昵称五六七八九十一二三四五六七八九十</span>
+                            <span class="gray text-medium">创建</span>
+                            <span class="fresh-red text-medium">用户昵称创建后无法修改</span>
+                        </div>
+                        <div>
+                            <span class="text-medium">注册手机</span>
+                            <span class="gray text-medium">13812345678</span>
+                            <span class="gray text-medium"><a href="">更改</a></span>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                </div>
+                <div class="left-to-div">
+                    <div class="text">
+                        <span class="text-medium bold bg-gray train-inline" style="padding-right:34px;">LOGO</span>
+                    </div>
+                    <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                        <div class="avatar col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                            <img src="images/zj.jpg">
+                        </div>
+                        <div class="">
+                            <ol class="">
+                                <li class="clear-margin">上传图片不大于2MB，格式为JPG,BMP,PNG</li>
+                                <li class="clear-margin">不得上传反动、色情、暴力、迷信、邪教、犯罪和广告等资源内容．</li>
+                            </ol>
+                            <div class="">
+                                <button style="margin-left: -18px;" type="submit" class="btn btn-sm quad-hard-radius bg-deepen-red">上传</button>
+                                <span style="margin-left: 20px" class="inline-fix-span text-medium gray">
+                                <a href="">保存</a></span>
+                                <span class="inline-fix-span text-medium gray"><a href="">修改</a></span>
+                                <span class="inline-fix-span text-medium gray"><a href="">删除</a></span>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear-both"></div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">用户介绍</span>
+                        </div>
+                        <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <form action="">
+                                <textarea></textarea>
+                                <a href="" class="gray">保存</a>&nbsp;&nbsp;&nbsp;
+                                <a href="" class="gray">修改</a>
+                            </form>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">业绩作品</span>
+                        </div>
+                        <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <form action="" class="">
+                                <div class=" col-lg-3 col-md-3 col-sm-3 col-xs-3 clear-padding">
+                                    <div style="height:150px;width:150px;background-color:green;">
+                                    </div>
+                                    <div class="">
+                                        <input style="width:150px;" type="text" placeholder="图片简介限二十字以内">
+                                    </div>
+                                </div>
+                                <div class=" col-lg-9 col-md-9 col-sm-9 col-xs-9" style="height:170px;">
+                                    <ol>
+                                        <li class="clear-margin">上传图片格式支持jpg,bmp且大小不超过4MB</li>
+                                        <li class="clear-margin">请保证图片的清晰度</li>
+                                        <li class="clear-margin">每帐户限十张图片</li>
+                                    </ol>
+                                    <div class="bottom inline-inner-margin">
+                                        <a href="" class="gray text-medium">添加</a>
+                                        <a href="" class="gray text-medium">保存</a>
+                                        <a href="" class="gray text-medium">修改</a>
+                                        <a href="" class="gray text-medium">删除</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">联系方式</span>
+                        </div>
+                        <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <div class="row clear-margin connect-informations">
+                                <span class="gray text-medium">电子邮箱</span>
+                                <input type="text" class="text-medium">
+                                <span class="gray text-medium">传真号码</span>
+                                <input type="text" class="text-medium">
+                                <span class="gray text-medium">手机</span>
+                                <input type="text" class="text-medium">
+                                <a href="" class="gray text-medium">公开</a>
+                                <a href="" class="gray text-medium">隐藏</a>
+                            </div>
+                            <div class="row clear-margin connect-informations">
+                                <span class="gray text-medium">微信帐号</span>
+                                <input type="text" class="text-medium">
+                                <span class="gray text-medium" style="padding-right:37px;">QQ</span>
+                                <input type="text" class="text-medium">
+                                <span class="gray text-medium">网址</span>
+                                <input type="text" class="text-medium">
+                                <a href="" class="gray text-medium">保存</a>
+                                <a href="" class="gray text-medium">修改</a>
+                            </div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">所在地址</span>
+                        </div>
+                        <div class="right-content col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                            <div class="">
+                                <span class="deepen-red text-medium">地址范围有助于其他用户更加方便的找到您</span>
+                            </div>
+                            <div class="">
+                                <select class="text-medium quad-usual-radius quad-bordered black">
+                                    <option value="">全国范围</option>
+                                </select>
+                                <input type="text" placeholder="街道地址" class="text-medium long">
+                                <a href="" class="gray text-medium">保存</a>
+                                <a href="" class="gray text-medium">修改</a>
+                            </div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">幕厚资料</span>
+                        </div>
+                        <div class="right-content col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <span class="gray text-medium">恁已/未加入幕厚专家</span>
+                            <span class="gray text-medium">获得</span>
+                            <span style="padding: 0px; margin-left: -20px;margin-right: 14px;" class="text-medium expert-icon ">专</span>
+                            <span class="gray text-medium">图标</span>
+                            <span class="train bg-deepen-red text-medium">申请加入</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <span class="gray text-medium">您已/未加入租凭商互助群</span>
+                            <span class="train bg-deepen-red text-medium">申请加入</span>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">其他证件</span>
+                        </div>
+                        <div class="right-content col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 clear-padding">
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 img-example-small-right">
+                                    <div class="">
+
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 img-example-small-left">
+                                    <div class="" style="height:80px;width:100%;background-color:green;">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9">
+                                <div>
+                                    <span class="text-ismall gray">(如力压架检测报告，团体理事单位证书，专业舞台灯光设计，安装及调试资质等级整数等)</span>
+                                </div>
+                                <div>
+                                    <a href="" class="gray text-medium">添加</a>
+                                    <a href="" class="gray text-medium">保存</a>
+                                    <a href="" class="gray text-medium">修改</a>
+                                    <a href="" class="gray text-medium">删除</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="margin-top: 10px;">
+                                <ol>
+                                    <li class="gray text-medium clear-margin">请保证设备单的真实性，如发现虚报，多报等不实行为,网站严肃处理.</li>
+                                    <li class="gray text-medium clear-margin">请使用下方设备详单范本填写贵公司设备详单．其他格式上传无效．</li>
+
+                                </ol>
+                                <div class="">
+                                    <span class="bg-deepen-red text-medium train">设备详单范本下载</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <span class="bg-deepen-red text-medium train">上传</span> &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <a href="" class="gray text-medium">保存</a>
+                                    <a href="" class="gray text-medium">修改</a>
+                                    <a href="" class="gray text-medium">删除</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="left-to-div">
+                        <div class="text">
+                            <span class="text-medium bold bg-gray train-inline">修改密码</span>
+                        </div>
+                        <div class="right-content col-lg-10 col-md-10 col-sm-10 col-xs-10">
+                            <div class="">
+                                <span class="gray text-medium">旧密码</span>
+                                <input type="text" class="text-medium input-text-medium">
+                                <span class="gray text-medium deepen-red">密码错误，请重新输入&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <span class="gray text-medium train bg-gray">密码保护</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label class="text-medium">问题选择</label>
+                                <select class="text-medium quad-usual-radius quad-bordered black">
+                                    <option class="" value="">我的公司名称</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <span class="gray text-medium">新密码</span>
+                                <input type="text" class="text-medium input-text-medium">
+                                <span class="gray text-medium deepen-red">两次输入不一致，请重新输入</span>
+                                <span class="gray text-medium train bg-gray">密码保护</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label class="text-medium">以往答案</label>
+                                <input type="text" style="width:119px;">
+                            </div>
+                            <div class="">
+                                <span class="gray text-medium">再次输入</span>
+                                <input type="text" class="text-medium input-text-medium" style="margin-left: -17px;">
+                                <span class="gray text-medium deepen-red"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <span style="margin-left: -7px;" class="gray text-medium train bg-gray">密码保护</span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                <label class="text-medium" style="margin-right: 15px">新答案</label>
+                                <input type="text" style="width:119px;">
+                            </div>
+                        </div>
+                        <div class="clear-both"></div>
+                    </div>
+                    <div class="" style="height:300px">
+                        
+                    </div>
+                    <center>
+                        <div class="pagination-2 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <span class="shadow">
+                    <span class="index"><a href="#">首页</a></span>
+                            <span class="arrow"><a href="#">&lt;</a></span>
+                            <span class="page-number active"><a href="#">1</a></span>
+                            <span class="page-number"><a href="#">2</a></span>
+                            <span class="page-number"><a href="#">3</a></span>
+                            <span class="page-number"><a href="#">...</a></span>
+                            <span class="page-number"><a href="#">20</a></span>
+                            <span class="arrow"><a href="#">&gt;</a></span>
+                            <span class="last"><a href="#">末页</a></span>
+                            </span>
+                        </div>
+                    </center>
+                    <div class="clear-both"></div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right col-lg-2 col-md-2 col-sm-2 col-xs-2 clear-padding">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 date">
+                <p class="day">31</p>
+                <p class="week">星期一</p>
+                <p class="year-month">2099.12</p>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 date">
+                <p class="day"><img src="images/sun.png">
+                </p>
+                <p class="week">星期一</p>
+                <p class="year-month">2099.12</p>
+            </div>
+        </div>
+        <div class="text-center views">
+            <span class="deepen-red">来访</span>
+            <span class="gray">999999</span>
+        </div>
+        <div class="images-show">
+            <img src="images/big.jpg" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/media.jpg" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-padding">
+            <img src="images/tall.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/big.jpg" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+            <img src="images/small.jpg" class="col-lg-6 col-md-6 col-sm-6 col-xs-6 clear-padding">
+        </div>
+    </div>
+
+
+    <div class="fzfw">
+        <div class="w">
+            <div class="fzfw1"><img src="images/fzfw.gif" width="160" height="59" />
+            </div>
+            <div class="fzfw2"><img src="images/f1.gif" width="59" height="59" /><img src="images/f2.gif" width="59" height="59" /><img src="images/f3.gif" width="59" height="59" /><img src="images/f4.gif" width="59" height="59" /><img src="images/f5.gif" width="59" height="59" />
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="w"><a href="">关于我们</a><a href="">帮助中心</a><a href="">联系方式</a><a href="">法律条款</a><a href="">举报投诉</a><a href="">黑名单</a>
+        </div>
+    </div>
+
+
+    <script>
+        accordionDropdown("accordion-dropdown", 23);
+    </script>
+</body>
+
+</html>
