@@ -1744,3 +1744,22 @@ label {
 .bottom-arrow:first-child {
     margin-top: 0px;
 }
+
+.inline {
+    display: inline;
+}
+
+.bg-zebra li:nth-child(even){
+    background-color: white;
+}
+.bg-zebra li:nth-child(odd){
+    background-color: rgb(240, 240, 240);
+}
+
+.mini-train-inline {
+    display: inline;
+    border-top-right-radius: 30px;
+    margin-left: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}

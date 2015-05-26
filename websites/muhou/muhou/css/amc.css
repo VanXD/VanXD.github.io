@@ -1,0 +1,87 @@
+
+.brand {
+    background-image: url(../images/banner3.jpg);
+    height: 411px;
+    background-size: 100%;
+}
+
+.city-list .row  span{
+    margin-right: 1.3%;
+}
+.city-list .row span:last-child{
+    margin-right: 0px;
+}
+
+.business-opportunity .content {
+    margin-top: 20px;
+}
+
+.irow > span{
+    margin-right: 2%;;
+}
+
+.content .irow .right-tips {
+    line-height: 20px;
+}
+
+.irow {
+    margin-top: 10px;
+}
+.irow:last-child:{
+    margin-bottom: 10px;
+}
+
+.experts-info .row .id {
+    margin-left: -2%;
+    float: left;
+}
+
+.experts-info .row .detals {    
+    float: left;
+    height: 85px;
+    padding: 10px;
+    margin-left: 5px;
+    width: 98.6%;
+    padding-right: 0px;
+}
+.detals:odd{
+    
+}
+
+
+
+
+
+.introduce span{
+    text-overflow: ellipsis;
+}
+
+.introduce {
+/*    margin: 10px 0px;*/
+}
+.introduce:first-child {
+    margin: 0px 0px;
+}
+
+.results .result {
+    height: 50px;
+    width: 69px;
+    background-color: rgb(42, 42, 42);
+    float: left;
+    margin-left: 5px;
+}
+
+
+
+.results {
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.detals .name {
+    width: 17%;
+}
+
+.detals .status {
+    padding-top: 40px;
+}

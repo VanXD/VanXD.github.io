@@ -43,11 +43,13 @@
     padding: 5px 0px;
 }
 
-.expert .avatar {
+.experts-info .detals .avatar {    
     float: left;
-    padding-right: 10px;
+    margin: 0px 5px;
     height: 70px;
 }
+
+
 
 .expert .avatar img {
     height: 100%;
