@@ -1545,6 +1545,10 @@ input[type=checkbox] {
     padding-left: 10px;
 }
 
+.explain .content{
+    margin-top: 20px;
+}
+
 .left-to-div {
     margin: 10px 0px;
 }
@@ -1720,4 +1724,23 @@ input[type=text] {
 
 label {
     font-weight: normal;
+}
+
+.img-div img{
+    width: 100%;
+}
+
+.text-large {
+    font-size: 1.8em;
+}
+
+.one-two-tree .one {
+    margin: 15px 0px;
+}
+
+.bottom-arrow {
+    margin-top: 30px;
+}
+.bottom-arrow:first-child {
+    margin-top: 0px;
 }

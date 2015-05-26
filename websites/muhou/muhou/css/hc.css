@@ -197,3 +197,39 @@ ol li{
 .connect-informations {
     margin: 10px 0px !important;
 }
+
+.left .block .instruts {
+    margin-top: 150px;
+}
+.left .block .instruts div{
+    margin-top: 50px;
+}
+.left .block .instruts p{
+    margin-top: 10px;
+}
+
+
+.left .block .item {
+    margin-top: 30px;
+}
+
+.center .block .well-know-saying .author {
+    float: right;
+}
+
+.bottom-arrow .arrow-img {
+    display: inline-block;
+    margin-left: 30%;
+}
+
+.bottom-arrow .title-text {
+    margin-bottom: -8px;
+}
+
+.file-download .file-name{    
+   color: black; 
+}
+
+.file-download .file-block {
+    margin: 0px 20px;
+}
