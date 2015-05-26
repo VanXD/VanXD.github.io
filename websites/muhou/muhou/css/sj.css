@@ -4,7 +4,8 @@
 
 .brand {
     background-image: url(../images/wyh.jpg);
-    height: 411px;
+    height: 421px;
+    background-position: 100% 100%;
 }
 
 .enterprise-title .ibrand{
@@ -172,4 +173,190 @@
     color: white;
     padding: 5px;
     font-size: 1.1em;
+}
+
+.brand .three span{
+margin-left: 6.5%;
+}
+.content .irow > span{
+    padding: 0px 5px;
+}
+
+.search-block .top-item span{
+    margin: 0px 10px;
+}
+.search-button > span{
+    position: relative;
+    top: 5px;
+    left: 5px;
+    letter-spacing: 12px;
+}
+.search-block .top-item span:first-child{
+    margin-left: 30px
+}
+
+.search-block .top-item {
+    width: 40%;
+    text-align: left;
+}
+
+.search-frame .magnifier {
+    display: inline-block;
+    position: relative;
+    height: 37px;
+    width: 40px;
+    top: -11px;
+    left: 5px;
+    border: 2px solid rgb(208, 0, 13);
+    border-right: none;
+    padding-left: 10px
+}
+.search-frame .magnifier img{
+    position: relative;
+    top: 5px;
+    left: -5px;
+    height: 21px;
+    width: 21px;
+}
+
+.search-frame input[type=text]{
+    border: 2px solid rgb(208, 0, 13);
+    border-left: none;
+    width: 30%;
+}
+
+.search-frame .search-button {
+    display: inline-block;
+    border: 2px solid rgb(208, 0, 13);
+    height: 37px;
+    position: relative;
+    top: -7px;
+    left: -6px;
+    width: 90px;
+    background-color: rgb(208, 0, 13);
+    color: white;
+    
+}
+
+.search-block .search-div {
+    width: 100%;
+}
+
+.notice-text-small {
+    position: inherit !important;
+    font-size: 1em !important;
+}
+
+.category span{
+    margin-right: 15px;
+}
+
+.category .items {
+    width: 91%;;
+}
+
+.category span a {
+    color: rgb(128, 128, 128);
+}
+
+.goods .order-rules {
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+}
+
+.order-rules .v-m {
+    line-height: 40px;
+}
+.order-rules > span{
+    margin: 0px 5px;
+}
+.order-rules > span:first-child{
+    margin: 0px 10px;
+}
+
+.order-rules .gray-down-arrow {
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: px;
+}
+
+.order-rules > span {
+    
+}
+
+.order-rules .ipagination {
+    position: relative;
+    top: 7px;
+}
+
+.brand .tips {
+    margin-right: 30px;
+}
+
+.goods .progress-bar {
+    height: 20px;
+    border: 1px solid rgb(208, 0, 13);
+    width: 100%;
+    background-color: white;
+    color: gray;
+    font-size: bold;
+}
+
+.progress-bar .has {
+    float: left;
+    text-align: right;
+    display: inline-block;
+    width: 60%;
+    background-color: rgb(208, 0, 13);
+    color: white;
+    padding-right: 10px;
+}
+
+.goods .goods-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.progress-bar .target {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+
+.content .money {
+    display: inline-block;
+    width: 49.3%;
+}
+
+.goods {
+    border: 1px solid rgb(208, 0, 13);
+    margin-bottom: 20px;
+}
+
+.content .goods-intro-text {
+    font-size: 1em;
+}
+
+.left-move {
+    position: relative;
+    left: -30px;
+    top: 25px;
+}
+
+.goods .goods-img {
+    height: 247px;
+}
+
+.progress-bar .has-zero {
+    display: inline-block;
+    width: 58%;
+    text-align: left;
+}
+
+.progress-bar .complete {
+    background-color: rgb(208, 0 ,13);
+    display: inline-block;
+    width: 100%;
+    color: white;
 }

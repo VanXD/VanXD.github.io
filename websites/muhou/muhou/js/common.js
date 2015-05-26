@@ -50,6 +50,11 @@ function textSlide() {
         interTime: 50,
         vis: 3
     });
+    $(".notice-text-small").slide({
+        effect: "topMarquee",
+        interTime: 50,
+        vis: 3
+    });
     //         menuTab
     var menuTab = $(".menuTab"),
         menuTabSub = menuTab.children(".menuTabCont");

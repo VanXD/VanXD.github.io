@@ -1763,3 +1763,19 @@ label {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.input-text-short {
+    width: 5.5%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.border-gray {
+    border-color: rgb(243, 243, 243) !important;
+}
+
+.clear-right-padding {
+    padding-right: 0px;
+}

@@ -2,7 +2,7 @@
 .brand {
     background-image: url(../images/banner3.jpg);
     height: 411px;
-    background-size: 100%;
+    background-size: 100% 100%;
 }
 
 .city-list .row  span{
@@ -24,8 +24,11 @@
     line-height: 20px;
 }
 
-.irow {
+.irow{
     margin-top: 10px;
+}
+.content .irow > span{
+    
 }
 .irow:last-child:{
     margin-bottom: 10px;
